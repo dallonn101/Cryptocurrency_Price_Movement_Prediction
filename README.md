@@ -22,8 +22,8 @@ The dataset includes features such as open, high, low, close prices, volume, quo
 Model Training
 The Random Forest model is trained using the following parameters:
 
-n_estimators=200: Number of trees in the forest.
-min_samples_split=50: Minimum number of samples required to split an internal node.
+n_estimators=50: Number of trees in the forest.
+min_samples_split=100: Minimum number of samples required to split an internal node.
 random_state=1: Seed for the random number generator to ensure reproducibility.
 Evaluation Metrics
 The model’s performance is evaluated using accuracy, precision, recall, and F1 score. These metrics provide a comprehensive view of the model’s effectiveness in predicting the direction of price movements.
