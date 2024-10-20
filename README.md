@@ -32,4 +32,4 @@ random_state=1: Seed for the random number generator to ensure reproducibility.
 The model’s performance is evaluated using accuracy, precision, recall, and F1 score. These metrics provide a comprehensive view of the model’s effectiveness in predicting the direction of price movements.
 
 ## Conclusion
-The Random Forest classification model is a powerful tool for directional forecasting in cryptocurrency markets. Its robustness, ability to handle high-dimensional data, and fast performance make it an excellent choice for this task. By leveraging this model, I aim to provide reliable predictions that can assist in making informed trading decisions.
+The Random Forest classification model is a powerful tool for directional forecasting in cryptocurrency markets. Its robustness, ability to handle high-dimensional data, and fast performance make it an excellent choice for this task.
