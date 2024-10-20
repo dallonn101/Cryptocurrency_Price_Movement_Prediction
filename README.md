@@ -25,6 +25,7 @@ The Random Forest model is trained using the following parameters:
 n_estimators=50: Number of trees in the forest.
 
 min_samples_split=100: Minimum number of samples required to split an internal node.
+
 random_state=1: Seed for the random number generator to ensure reproducibility.
 
 Evaluation Metrics
