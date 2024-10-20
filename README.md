@@ -15,11 +15,11 @@ Random Forest performs well on a variety of classification tasks and is known fo
 4. Ease of Use and Interpretability
 Random Forest is relatively easy to implement and tune. It also provides interpretability through feature importance scores, which can be valuable for understanding the factors driving the model’s predictions.
 
-Model Implementation
+## Model Implementation
 Data Preparation
 The dataset includes features such as open, high, low, close prices, volume, quote asset volume, number of trades, taker buy base volume, and taker buy quote volume. The target variable is the direction of the price movement (up or down).
 
-Model Training
+## Model Training
 The Random Forest model is trained using the following parameters:
 
 n_estimators=50: Number of trees in the forest.
