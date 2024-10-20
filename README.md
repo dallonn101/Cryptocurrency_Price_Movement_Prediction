@@ -1,6 +1,6 @@
 # Cryptocurrency Directional Forecasting with Random Forest
 ## Introduction
-This project aims to predict the direction of cryptocurrency price movements using a Random Forest classification model. The goal is to classify whether the price will go up or down, rather than predicting the exact price value. This README explains the rationale behind choosing the Random Forest model for this task.
+This project aims to predict the direction of cryptocurrency price movements using a Random Forest classification model. The goal is to classify whether the price will go up or down, rather than predicting the exact price value.
 
 ## Why Random Forest?
 1. Robustness to Overfitting
