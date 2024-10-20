@@ -20,7 +20,7 @@ Data Preparation
 The dataset includes features such as open, high, low, close prices, volume, quote asset volume, number of trades, taker buy base volume, and taker buy quote volume. The target variable is the direction of the price movement (up or down).
 
 ## Model Training
-The Random Forest model is trained using the following parameters:
+The Random Forest model was trained using the following parameters:
 
 n_estimators=50: Number of trees in the forest.
 
