@@ -1,36 +1,70 @@
-# Cryptocurrency Directional Forecasting with Random Forest Machine Learning Model
-## Introduction
-This project aims to predict the direction of cryptocurrency price movements using a Random Forest classification model. The goal is to predict whether the price of a cryptocurrency will move up or stay the same/move down in the next minute.
+# Project Overview
+This project aims to predict whether the price of a cryptocurrency will move up (1) or stay the same/move down (0) in the next minute based on historical data. We developed and compared two machine learning models: Gaussian Naive Bayes and Random Forest. Our findings indicate that the Random Forest model demonstrated superior accuracy in predicting price movements.
 
-## Why I chose Random Forest
-1. Robustness to Overfitting:
-Random Forest is an ensemble learning method that builds multiple decision trees and merges them to get a more accurate and stable prediction. This approach helps in reducing overfitting, which is a common issue in financial data due to its noisy nature.
+Dataset
+The dataset used for this project includes minute-by-minute price information of a single cryptocurrency. The features are:
 
-2. Handling High Dimensionality:
-Cryptocurrency data often includes a large number of features (e.g., open, high, low, close prices, volume, etc.). Random Forest can handle high-dimensional data efficiently.
+timestamp: A timestamp for the minute covered by the row
 
-3. Versatility and Performance:
-Random Forest performs well on a variety of classification tasks and is known for its high accuracy. It is versatile and can handle both numerical and categorical data, making it suitable for the diverse types of data involved in cryptocurrency trading.
+open: The price in USDT at the beginning of the minute
 
-4. Ease of Use and Interpretability:
-Random Forest is relatively easy to implement and tune. It also provides interpretability through feature importance scores, which can be valuable for understanding the factors driving the model’s predictions.
+high: The highest price in USDT during the minute
 
-5. Non-Linearity: They manage non-linear relationships well, which is crucial for complex datasets like financial data.
+low: The lowest price in USDT during the minute
 
-## Model Implementation
-The dataset includes features such as open, high, low, close prices, volume, quote asset volume, number of trades, taker buy base volume, and taker buy quote volume. The target variable is the direction of the price movement (up, down or no movement). 1 stands for a positive price change and 0 for no or a negative price change.
+close: The price in USDT at the end of the minute
 
-## Model Training
-The Random Forest model was trained using the following hyperparameters:
+volume: The number of crypto asset units traded during the minute
 
-n_estimators=50: Number of trees in the forest.
+quote_asset_volume: The total value of the traded shares in USDT during the minute
 
-min_samples_split=100: Minimum number of samples required to split an internal node.
+number_of_trades: The number of trades that took place during the minute
 
-random_state=1: Seed for the random number generator to ensure reproducibility.
+taker_buy_base_volume: The total amount of the crypto asset that was bought by takers during the minute
 
-## Evaluation Metrics
-The model’s performance is evaluated using accuracy, precision, recall, and F1 score. These metrics provide a comprehensive view of the model’s effectiveness in predicting the direction of price movements.
+taker_buy_quote_volume: The total value in USDT that was spent by takers to buy the crypto asset
 
-## Conclusion
-The Random Forest classification model is a powerful tool for directional forecasting in cryptocurrency markets. Its robustness, ability to handle high-dimensional data, and fast performance make it an excellent choice for this task.
+target: The direction of price movement from the current to the next minute (1 for a positive price change and 0 for no or a negative price change)
+
+Models Compared
+Gaussian Naive Bayes
+Description: Gaussian Naive Bayes is a probabilistic classifier that assumes the features follow a normal distribution. It’s simple and efficient but may not capture complex relationships in the data.
+
+Implementation: We scaled the data using MinMaxScaler and trained the model using GaussianNB.
+
+Advantages:
+
+Fast training and prediction
+
+Handles noisy data well
+
+Disadvantages:
+
+Assumes normal distribution of features, which may not always be true
+
+Generally less accurate for complex datasets
+
+Random Forest
+Description: Random Forest is an ensemble learning method that constructs multiple decision trees and merges their results to improve accuracy and control overfitting.
+
+Implementation: We trained the model with 50 estimators and set min_samples_split to 100 for deeper trees.
+
+Advantages:
+
+High accuracy and robustness
+
+Handles large datasets and high-dimensional data well
+
+Provides feature importance
+
+Disadvantages:
+
+Can be computationally intensive
+
+May require hyperparameter tuning
+
+Findings
+External testing showed that the Random Forest model outperformed the Gaussian Naive Bayes model in terms of accuracy and reliability. The Random Forest model was better suited to capture the intricate patterns and non-linear relationships in the cryptocurrency price data.
+
+Conclusion
+While both models have their strengths, the Random Forest model proved to be more accurate for predicting the direction of cryptocurrency price movements. It is recommended for applications requiring higher predictive performance, despite its greater computational complexity.
