@@ -7,13 +7,15 @@ This project aims to predict the direction of cryptocurrency price movements usi
 Random Forest is an ensemble learning method that builds multiple decision trees and merges them to get a more accurate and stable prediction. This approach helps in reducing overfitting, which is a common issue in financial data due to its noisy nature.
 
 2. Handling High Dimensionality:
-Cryptocurrency data often includes a large number of features (e.g., open, high, low, close prices, volume, etc.). Random Forest can handle high-dimensional data efficiently and can provide insights into feature importance, helping to identify which features are most influential in predicting price direction.
+Cryptocurrency data often includes a large number of features (e.g., open, high, low, close prices, volume, etc.). Random Forest can handle high-dimensional data efficiently.
 
 3. Versatility and Performance:
 Random Forest performs well on a variety of classification tasks and is known for its high accuracy. It is versatile and can handle both numerical and categorical data, making it suitable for the diverse types of data involved in cryptocurrency trading.
 
 4. Ease of Use and Interpretability:
 Random Forest is relatively easy to implement and tune. It also provides interpretability through feature importance scores, which can be valuable for understanding the factors driving the model’s predictions.
+
+5. Non-Linearity: They manage non-linear relationships well, which is crucial for complex datasets like financial data.
 
 ## Model Implementation
 Data Preparation
