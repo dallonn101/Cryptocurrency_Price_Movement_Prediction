@@ -28,9 +28,11 @@ target: The direction of price movement from the current to the next minute (1 f
 
 # Models Compared
 ## Gaussian Naive Bayes
-### Description: Gaussian Naive Bayes is a probabilistic classifier that assumes the features follow a normal distribution. It’s simple and efficient but may not capture complex relationships in the data.
+### Description:
+Gaussian Naive Bayes is a probabilistic classifier that assumes the features follow a normal distribution. It’s simple and efficient but may not capture complex relationships in the data.
 
-### Implementation: We scaled the data using MinMaxScaler and trained the model using GaussianNB.
+### Implementation:
+We scaled the data using MinMaxScaler and trained the model using GaussianNB.
 
 Advantages:
 
