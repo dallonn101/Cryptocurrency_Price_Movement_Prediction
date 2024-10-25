@@ -21,7 +21,7 @@ Random Forest is relatively easy to implement and tune. It also provides interpr
 The dataset includes features such as open, high, low, close prices, volume, quote asset volume, number of trades, taker buy base volume, and taker buy quote volume. The target variable is the direction of the price movement (up, down or no movement). 1 stands for a positive price change and 0 for no or a negative price change.
 
 ## Model Training
-The Random Forest model was trained using the following parameters:
+The Random Forest model was trained using the following hyperparameters:
 
 n_estimators=50: Number of trees in the forest.
 
