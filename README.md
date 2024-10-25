@@ -31,8 +31,7 @@ target: The direction of price movement from the current to the next minute (1 f
 ### Description:
 Gaussian Naive Bayes is a probabilistic classifier that assumes the features follow a normal distribution. It’s simple and efficient but may not capture complex relationships in the data.
 
-### Implementation:
-
+### Implementation: 
 I scaled the data using MinMaxScaler and split it into training and test sets with an 80/20 ratio.
 
 ### Advantages:
