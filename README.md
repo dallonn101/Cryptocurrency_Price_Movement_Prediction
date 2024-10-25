@@ -1,5 +1,5 @@
 # Project Overview
-This project aims to predict whether the price of a cryptocurrency will move up (1) or stay the same/move down (0) in the next minute based on historical data using machine learning models. I developed and compared two models, Gaussian Naive Bayes and Random Forest. My findings indicate that the Random Forest model demonstrated superior accuracy in predicting price movements.
+This project aims to predict whether the price of a cryptocurrency will move up (1) or stay the same/move down (0) in the next minute based on historical data using machine learning models. I developed and compared two models to pick the best, Gaussian Naive Bayes and Random Forest. My findings indicate that the Random Forest model demonstrated superior accuracy in predicting price movements.
 
 # Dataset
 The dataset used for this project includes minute-by-minute price information of a single cryptocurrency. The features are:
@@ -46,7 +46,7 @@ I scaled the data using MinMaxScaler and split it into training and test sets wi
 Random Forest is an ensemble learning method that constructs multiple decision trees and merges their results to improve accuracy and control overfitting.
 
 ### Implementation:
-The dataset was split into training and test sets with an 80/20 ratio. I trained the model with 50 estimators which is the number of trees and set min_samples_split to 100 for deeper tree and fewer split to find a balance between computational performance and accuracy of the model.
+The dataset was split into training and test sets with an 80/20 ratio. I trained the model with 50 estimators which is the number of trees and set min_samples_split to 100 for deeper tree and fewer split to find a balance between computational complexity and accuracy of the model.
 
 ### Advantages:
 1. Higher accuracy and robustness
