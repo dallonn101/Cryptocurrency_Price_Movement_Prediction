@@ -54,7 +54,7 @@ The dataset was split into training and test sets with an 80/20 ratio. I trained
 2. Provides feature importance
 
 ### Disadvantages:
-1. It was computationally more intensive more the Gaussian Naive Bayes model but it still had a fast enough performance.
+1. It was computationally more intensive more the Gaussian Naive Bayes model but it still had a fast enough computational performance.
 2. It required a bit more hyperparameter tuning than the Gaussian Naive Bayes model
 
 # Findings
