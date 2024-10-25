@@ -27,10 +27,10 @@ taker_buy_quote_volume: The total value in USDT that was spent by takers to buy 
 target: The direction of price movement from the current to the next minute (1 for a positive price change and 0 for no or a negative price change)
 
 # Models Compared
-Gaussian Naive Bayes
-Description: Gaussian Naive Bayes is a probabilistic classifier that assumes the features follow a normal distribution. It’s simple and efficient but may not capture complex relationships in the data.
+## Gaussian Naive Bayes
+### Description: Gaussian Naive Bayes is a probabilistic classifier that assumes the features follow a normal distribution. It’s simple and efficient but may not capture complex relationships in the data.
 
-Implementation: We scaled the data using MinMaxScaler and trained the model using GaussianNB.
+### Implementation: We scaled the data using MinMaxScaler and trained the model using GaussianNB.
 
 Advantages:
 
@@ -44,7 +44,7 @@ Assumes normal distribution of features, which may not always be true
 
 Generally less accurate for complex datasets
 
-Random Forest
+## Random Forest
 Description: Random Forest is an ensemble learning method that constructs multiple decision trees and merges their results to improve accuracy and control overfitting.
 
 Implementation: We trained the model with 50 estimators and set min_samples_split to 100 for deeper trees.
