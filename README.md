@@ -58,7 +58,7 @@ The dataset was split into training and test sets with an 80/20 ratio. I trained
 2. It required a bit more hyperparameter tuning than the Gaussian Naive Bayes model
 
 # Findings
-External testing of both models showed that the Random Forest model outperformed the Gaussian Naive Bayes model in terms of accuracy and reliability. The Random Forest model was better suited to capture the intricate patterns and non-linear relationships in the cryptocurrency price data.
+External testing of both models using real world data showed that the Random Forest model outperformed the Gaussian Naive Bayes model in terms of accuracy and reliability. The Random Forest model was better suited to capture the intricate patterns and non-linear relationships in the cryptocurrency price data.
 
 # Conclusion
 While both models have their strengths, the Random Forest model proved to be more accurate for predicting the direction of cryptocurrency price movements. It is recommended for applications requiring higher predictive performance, despite its greater computational complexity.
