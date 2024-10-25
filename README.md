@@ -18,7 +18,6 @@ Random Forest is relatively easy to implement and tune. It also provides interpr
 5. Non-Linearity: They manage non-linear relationships well, which is crucial for complex datasets like financial data.
 
 ## Model Implementation
-Data Preparation
 The dataset includes features such as open, high, low, close prices, volume, quote asset volume, number of trades, taker buy base volume, and taker buy quote volume. The target variable is the direction of the price movement (up, down or no movement). 1 stands for a positive price change and 0 for no or a negative price change.
 
 ## Model Training
