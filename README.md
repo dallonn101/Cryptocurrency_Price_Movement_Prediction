@@ -34,39 +34,31 @@ Gaussian Naive Bayes is a probabilistic classifier that assumes the features fol
 ### Implementation:
 I scaled the data using MinMaxScaler and split it into training and test sets with an 80/20 ratio.
 
-Advantages:
+### Advantages:
+1. Faster training and prediction compared to the Random forest model
+2. Handles noisy data well
 
-Fast training and prediction
-
-Handles noisy data well
-
-Disadvantages:
-
-Assumes normal distribution of features, which may not always be true
-
-Generally less accurate for complex datasets
+### Disadvantages:
+1. Less accurate than the Random Forest model.
 
 ## Random Forest
-Description: Random Forest is an ensemble learning method that constructs multiple decision trees and merges their results to improve accuracy and control overfitting.
+### Description:
+Random Forest is an ensemble learning method that constructs multiple decision trees and merges their results to improve accuracy and control overfitting.
 
-Implementation: We trained the model with 50 estimators and set min_samples_split to 100 for deeper trees.
+### Implementation: We trained the model with 50 estimators and set min_samples_split to 100 for deeper trees.
 
 Advantages:
 
-High accuracy and robustness
-
-Handles large datasets and high-dimensional data well
-
-Provides feature importance
+1. Higher accuracy and robustness
+1. Handled the large and high-dimensional dataset better than Gaussian Naive Bayes model
+2. Provides feature importance
 
 Disadvantages:
-
-Can be computationally intensive
-
-May require hyperparameter tuning
+1. It was computationally more intensive more the Gaussian Naive Bayes model but it still had a fast enough performance.
+2. It required a bit more hyperparameter tuning than the Gaussian Naive Bayes model
 
 Findings
-External testing showed that the Random Forest model outperformed the Gaussian Naive Bayes model in terms of accuracy and reliability. The Random Forest model was better suited to capture the intricate patterns and non-linear relationships in the cryptocurrency price data.
+External testing of both models showed that the Random Forest model outperformed the Gaussian Naive Bayes model in terms of accuracy and reliability. The Random Forest model was better suited to capture the intricate patterns and non-linear relationships in the cryptocurrency price data.
 
 Conclusion
 While both models have their strengths, the Random Forest model proved to be more accurate for predicting the direction of cryptocurrency price movements. It is recommended for applications requiring higher predictive performance, despite its greater computational complexity.
