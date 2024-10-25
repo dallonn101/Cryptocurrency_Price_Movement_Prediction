@@ -32,6 +32,7 @@ target: The direction of price movement from the current to the next minute (1 f
 Gaussian Naive Bayes is a probabilistic classifier that assumes the features follow a normal distribution. It’s simple and efficient but may not capture complex relationships in the data.
 
 ### Implementation: 
+I scaled the data using MinMaxScaler and split it into training and test sets with an 80/20 ratio.
 
 ### Advantages:
 1. Faster training and prediction compared to the Random forest model
@@ -44,7 +45,8 @@ Gaussian Naive Bayes is a probabilistic classifier that assumes the features fol
 ### Description:
 Random Forest is an ensemble learning method that constructs multiple decision trees and merges their results to improve accuracy and control overfitting.
 
-### Implementation: The dataset was split into training and test sets with an 80/20 ratio. I trained the model with 50 estimators and set min_samples_split to 100 for deeper trees.
+### Implementation:
+The dataset was split into training and test sets with an 80/20 ratio. I trained the model with 50 estimators and set min_samples_split to 100 for deeper trees.
 
 ### Advantages:
 1. Higher accuracy and robustness
