@@ -2,7 +2,7 @@
 ## Introduction
 This project aims to predict the direction of cryptocurrency price movements using a Random Forest classification model. The goal is to predict whether the price of a cryptocurrency will move up or stay the same/move down in the next minute.
 
-## Why Random Forest?
+## Why I chose Random Forest
 1. Robustness to Overfitting:
 Random Forest is an ensemble learning method that builds multiple decision trees and merges them to get a more accurate and stable prediction. This approach helps in reducing overfitting, which is a common issue in financial data due to its noisy nature.
 
