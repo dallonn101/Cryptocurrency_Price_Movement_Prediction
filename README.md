@@ -1,5 +1,5 @@
 # Project Overview
-This project aims to predict whether the price of a cryptocurrency will move up (1) or stay the same/move down (0) in the next minute based on historical data. We developed and compared two machine learning models: Gaussian Naive Bayes and Random Forest. Our findings indicate that the Random Forest model demonstrated superior accuracy in predicting price movements.
+This project aims to predict whether the price of a cryptocurrency will move up (1) or stay the same/move down (0) in the next minute based on historical data. I developed and compared two machine learning models: Gaussian Naive Bayes and Random Forest. My findings indicate that the Random Forest model demonstrated superior accuracy in predicting price movements.
 
 # Dataset
 The dataset used for this project includes minute-by-minute price information of a single cryptocurrency. The features are:
