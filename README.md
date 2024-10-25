@@ -26,7 +26,7 @@ taker_buy_quote_volume: The total value in USDT that was spent by takers to buy 
 
 target: The direction of price movement from the current to the next minute (1 for a positive price change and 0 for no or a negative price change)
 
-Models Compared
+# Models Compared
 Gaussian Naive Bayes
 Description: Gaussian Naive Bayes is a probabilistic classifier that assumes the features follow a normal distribution. It’s simple and efficient but may not capture complex relationships in the data.
 
