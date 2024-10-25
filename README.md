@@ -46,7 +46,7 @@ I scaled the data using MinMaxScaler and split it into training and test sets wi
 Random Forest is an ensemble learning method that constructs multiple decision trees and merges their results to improve accuracy and control overfitting.
 
 ### Implementation:
-The dataset was split into training and test sets with an 80/20 ratio. I trained the model with 50 estimators and set min_samples_split to 100 for deeper trees.
+The dataset was split into training and test sets with an 80/20 ratio. I trained the model with 50 estimators which is the number of trees and set min_samples_split to 100 for deeper tree and fewer split to find a balance between computational performance and accuracy of the model.
 
 ### Advantages:
 1. Higher accuracy and robustness
