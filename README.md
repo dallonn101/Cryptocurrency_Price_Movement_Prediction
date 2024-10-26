@@ -50,8 +50,8 @@ The dataset was split into training and test sets with an 80/20 ratio. I trained
 
 ### Advantages:
 1. Higher accuracy and robustness
-1. Handled the large and high-dimensional dataset better than Gaussian Naive Bayes model
-2. Provides feature importance
+2. Handled the large and high-dimensional dataset better than Gaussian Naive Bayes model
+
 
 ### Disadvantages:
 1. It was computationally more intensive more the Gaussian Naive Bayes model but it still had a fast enough computational performance.
