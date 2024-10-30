@@ -13,3 +13,5 @@ included the code for the model regardless.
 Based on the above comparison, the Random Forest, KNN, XGBoost models appear to be the
 best options for prediction. Logistics Regression and Gaussian Naive Bayes models performed
 worse.
+
+link to the kaggle challenge - https://www.kaggle.com/competitions/directional-forecasting-in-cryptocurrencies
