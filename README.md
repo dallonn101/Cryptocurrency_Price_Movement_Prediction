@@ -13,4 +13,4 @@ Based on the above comparison, using the Macro-Averaged F1 as the metric for mod
 best options for prediction. Logistics Regression and Gaussian Naive Bayes models performed
 worse.
 
-link to the kaggle challenge containing the dataset used to train the various models - https://www.kaggle.com/competitions/directional-forecasting-in-cryptocurrencies
+link to the kaggle challenge containing the dataset used to train the various models - https://www.kaggle.com/competitions/directional-forecasting-in-cryptocurrencies/data
