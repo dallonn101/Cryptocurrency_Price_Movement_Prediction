@@ -1,4 +1,4 @@
-#Cryptocurrency Price Movement Prediction
+# Cryptocurrency Price Movement Prediction
 Overview
 This repository contains the implementation and comparison of various machine learning
 models to predict the direction of cryptocurrency price movement in the next minute. The
