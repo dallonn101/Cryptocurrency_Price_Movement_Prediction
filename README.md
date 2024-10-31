@@ -9,7 +9,7 @@ I used the test csv file to validate the models on kaggle. Also given the large 
 dataset and the limitation of the computer hardware, using the SVM model was not feasible but I
 included the code for the model regardless.
 ## Conclusion
-Based on the above comparison, using the Macro-Averaged F1 as the metric for model accuracy, the Random Forest, KNN, XGBoost models appear to be the
+Based on the above comparison, using the Macro-Averaged F1 score as the metric for model accuracy, the Random Forest, KNN, XGBoost models appear to be the
 best options for prediction. Logistics Regression and Gaussian Naive Bayes models performed
 worse.
 
