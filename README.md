@@ -1,7 +1,7 @@
 # Cryptocurrency Price Movement Prediction
 ## Overview
 This repository contains the implementation and comparison of various machine learning
-models to predict the direction of cryptocurrency price movement in the next minute. The
+models to predict the direction of cryptocurrency price movement whether will move up (1) or stay the same/move down (0)in the next minute. The
 models included are Random Forest, Gaussian Naive Bayes, Support Vector Machine (SVM),
 K-Nearest Neighbors (KNN), Decision Tree, Logistic Regression and XGBoost.
 ## Methodology
